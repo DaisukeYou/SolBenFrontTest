@@ -1,0 +1,33 @@
+/* ローストコーヒー#462e2e、ブラウンマスタード#cfaa2a、キャラメルサンド#ad722fで比率は6:0.5:3.5くらい */
+body {
+  background: #cfaa2a;
+  margin: 0;
+}
+
+header {
+  color: #462e2e;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+header p {
+  font-size: 12px;
+  margin: 0;
+}
+
+.toiletList {
+  list-style: none;
+}
+
+footer {
+  color: #462e2e;
+}
+
+footer h1 {
+  margin-top: 100%;
+  font-size: 16px;
+}
