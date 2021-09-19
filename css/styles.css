@@ -1,11 +1,16 @@
 /* ローストコーヒー#462e2e、ブラウンマスタード#cfaa2a、キャラメルサンド#ad722fで比率は6:0.5:3.5くらい */
 body {
-  background: #cfaa2a;
+  background: white;
   margin: 0;
 }
 
+.container {
+  margin: 30px auto;
+  width: 500px;
+}
+
 header {
-  color: #462e2e;
+  color: black;
   text-align: center;
 }
 
@@ -19,12 +24,46 @@ header p {
   margin: 0;
 }
 
-.toiletList {
+.toiletTab {
   list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.toiletTab li a {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  padding: 8px 0;
+  color: #333;
+  text-decoration: none;
+  border-radius: 4px 4px 0 0;
+}
+
+.toiletTab li a.active {
+  background: #333;
+  color: #fff;
+}
+
+.toiletTab li a:not(.active):hover {
+  opacity: 0.5;
+  transition: opacity 0.4s;
+}
+
+.content.active {
+  background: #333;
+  color: #fff;
+  min-height: 150px;
+  padding: 12px;
+  display: block;
+}
+
+.content {
+  display: none;
 }
 
 footer {
-  color: #462e2e;
+  color: black;
 }
 
 footer h1 {
